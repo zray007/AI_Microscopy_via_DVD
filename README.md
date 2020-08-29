@@ -1,4 +1,9 @@
 # AI_Microscopy_via_DVD
+# Requirements
+This was tested on Python 3.7. To install the required packages, use the provided requirements.txt file like so:
+```bash
+pip install -r requirements.txt
+```
 # Pre-trained model
 A pretrained generator model on the DIV2k dataset is provided in the 'models' directory. It uses 6 inverted residual blocks, with 32 filters in every layer of the generator.
 
